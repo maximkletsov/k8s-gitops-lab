@@ -1,5 +1,5 @@
 start:
-	minikube start --driver=docker --memory=8192 --cpus=4
+	minikube start --driver=docker --memory=4096 --cpus=2
 
 install-argo:
 	kubectl create namespace argocd || true
