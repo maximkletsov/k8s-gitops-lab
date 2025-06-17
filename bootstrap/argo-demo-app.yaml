@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'file:///home/roach13/projects/k8s-gitops-lab'
+    repoURL: 'https://github.com/maximkletsov/k8s-gitops-lab'
     targetRevision: HEAD
     path: cluster/apps/demo-app
   destination:
