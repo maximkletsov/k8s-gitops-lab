@@ -9,8 +9,6 @@ service:
   type: ClusterIP
   port: 80
 
-resources: {}
-
 ingress:
   enabled: true
   className: nginx
@@ -19,4 +17,8 @@ ingress:
       paths:
         - path: /
           pathType: Prefix
+
+resources: {}
+
+
 
