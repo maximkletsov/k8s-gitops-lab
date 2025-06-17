@@ -10,3 +10,13 @@ service:
   port: 80
 
 resources: {}
+
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - host: nginx.192.168.49.2.nip.io
+      paths:
+        - path: /
+          pathType: Prefix
+
