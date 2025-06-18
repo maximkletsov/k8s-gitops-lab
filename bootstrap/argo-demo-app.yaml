@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/maximkletsov/k8s-gitops-lab'
-    targetRevision: main
+    targetRevision: HEAD
     path: cluster/apps/demo-app
   destination:
     server: 'https://kubernetes.default.svc'
